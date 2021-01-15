@@ -1,0 +1,7 @@
+* {
+		box-sizing: border-box
+	}
+
+	:not(not) {
+		box-sizing: border-box
+	}

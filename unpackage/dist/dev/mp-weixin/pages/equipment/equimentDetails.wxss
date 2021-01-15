@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-e2822ecc:not(not) {
+		box-sizing: border-box
+}
+.container.data-v-e2822ecc {
+  width: 100%;
+}
+.container .uni-basic-info-box.data-v-e2822ecc {
+  width: 95%;
+  border-radius: 10rpx;
+  background-color: #f0f0f0;
+  padding: 0rpx 10rpx;
+  margin: 20rpx auto;
+}
+.container .uni-basic-info-box .uni-info-item + .uni-info-item.data-v-e2822ecc {
+  border-top: 1rpx solid #e0eeee;
+}
+.container .uni-basic-info-box .uni-info-item.data-v-e2822ecc {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .uni-basic-info-box .uni-info-item .uni-title.data-v-e2822ecc {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #5a5e61;
+  font-size: 28rpx;
+}
+.container .uni-basic-info-box .uni-info-item .uni-info.data-v-e2822ecc {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  color: #000000;
+  font-size: 28rpx;
+  text-align: right;
+}
+.container .uni-imgList-box.data-v-e2822ecc {
+  width: 95%;
+  border-radius: 10rpx;
+  background-color: #f0f0f0;
+  padding: 20rpx;
+  margin: 20rpx auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.container .uni-imgList-box .uni-img-box.data-v-e2822ecc {
+  width: 45%;
+  height: 200rpx;
+  margin: 10rpx 16rpx;
+}
+.container .uni-imgList-box .uni-img-box .uni-img.data-v-e2822ecc {
+  width: 100%;
+  height: 100%;
+}
+.container .uni-status-info-box.data-v-e2822ecc {
+  width: 95%;
+  border-radius: 10rpx;
+  background-color: #f0f0f0;
+  padding: 0rpx 10rpx;
+  margin: 20rpx auto;
+}
+.container .uni-status-info-box .uni-info-item.data-v-e2822ecc {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .uni-status-info-box .uni-info-item .uni-title.data-v-e2822ecc {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #5a5e61;
+  font-size: 28rpx;
+}
+.container .uni-status-info-box .uni-info-item .uni-info.data-v-e2822ecc {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  color: #000000;
+  font-size: 28rpx;
+  text-align: right;
+}
+.container .uni-agree-agreement-box.data-v-e2822ecc {
+  width: 100%;
+  margin: 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.container .uni-agree-agreement-box text.data-v-e2822ecc {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #000;
+  margin-left: 15rpx;
+}
+.container .uni-agree-agreement-box ._span.data-v-e2822ecc {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #e37422;
+}
+.container .uni-bottom-box.data-v-e2822ecc {
+  width: 100%;
+  padding: 20rpx 0rpx;
+}
+.container .uni-bottom-box .uni-btn.data-v-e2822ecc {
+  width: 95%;
+  height: 90rpx;
+  font-size: 28rpx;
+  line-height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #ff6d00;
+}
+.container .uni-bottom-box .uni-btn.data-v-e2822ecc::after {
+  content: '';
+  border: none;
+}
+.container .uni-bottom-box .uni-ischeck-btn.active.data-v-e2822ecc {
+  background-color: #ffb681;
+}
+.container .uni-wybPopup .popup-content .uni-title.data-v-e2822ecc {
+  width: 100%;
+  height: 100rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.container .uni-wybPopup .popup-content .uni-content.data-v-e2822ecc {
+  width: 100%;
+  height: 900rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  padding: 0rpx 20rpx 30rpx;
+}
+.container .uni-wybPopup .popup-content .uni-content .scroll-view.data-v-e2822ecc {
+  width: 100%;
+  height: 100%;
+}
+.container .uni-wybPopup .popup-content .uni-content .scroll-view .uni-scroll-item.data-v-e2822ecc {
+  width: 100%;
+  min-height: 100%;
+}
+
