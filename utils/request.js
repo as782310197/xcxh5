@@ -1,8 +1,9 @@
 
 // var baseUrl = 'http://111.229.170.129:8080'
 // var baseUrl = 'http://47.115.183.171:8080'
-var baseUrl = 'http://api.wangshuibao.com'
-// baseUrl = 'http://localhost:8080'
+// var baseUrl = 'http://api.wangshuibao.com'
+baseUrl = 'http://47.115.183.171:8080'
+
 module.exports = params => {
 	let curPage = getCurrentPages();
 	let curRoute = curPage.length > 0 ? curPage[curPage.length - 1].route : '';

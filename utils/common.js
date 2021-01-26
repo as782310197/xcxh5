@@ -27,7 +27,7 @@ export function uploadFile() {
 	return new Promise((resolve, reject) => {
 		uni.chooseImage({
 			sizeType: ['compressed'],
-			sourceType: ['camera','album'], //从相册选择
+//			sourceType: ['camera','album'], 从相册选择
 			success: (chooseImageRes) => {
 				const tempFilePaths = chooseImageRes.tempFilePaths;
 				// 压缩图片

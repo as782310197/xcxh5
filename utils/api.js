@@ -1,6 +1,7 @@
 // api.js
 // const BASE_URL = 'http://192.168.50.12:8000'
-const BASE_URL = 'http://api.wangshuibao.com'
+// const BASE_URL = 'http://api.wangshuibao.com'
+const BASE_URL = 'http://47.115.183.171:8080'
 export const myRequest = (options) => {
 	return new Promise((resolve, reject) => {
 		uni.request({
